@@ -90,3 +90,43 @@ a {
 .tech-item h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media only screen and (max-width: 800px) {
+    .main-container {
+        display: block;
+    }
+
+    .p-info-containers {
+        max-width: 700px;
+    }
+
+    .w-info-containers {
+        max-width: 700px;
+    }
+
+    .projects-container {
+        max-width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .main-container {
+        display: block;
+    }
+
+    .p-info-containers {
+        max-width: 700px;
+    }
+
+    .project-item {
+        width: 50%;
+    }
+
+    .work-info {
+        max-width: 100%;
+    }
+
+    .project-item {
+        width: 85%;
+    }
+}
